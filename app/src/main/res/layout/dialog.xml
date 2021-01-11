@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:layout_gravity="center"
+    android:background="#ffff"
+    android:padding="20dp">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ooops!"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#4D950E"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check your internet connection"
+        android:fontFamily="serif"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Retry"
+        android:background="@drawable/bg_btn"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>

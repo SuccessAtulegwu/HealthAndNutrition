@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "36908954749",
+    "firebase_url": "https://health-and-nutrition-d7143.firebaseio.com",
+    "project_id": "health-and-nutrition-d7143",
+    "storage_bucket": "health-and-nutrition-d7143.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36908954749:android:f95d00dfa545633511ad14",
+        "android_client_info": {
+          "package_name": "com.example.healthandnutrition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36908954749-pn61ch6vjdbeenrhccmqq2c0flr4qj85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthandnutrition",
+            "certificate_hash": "b7b2374643b3d9181468ee7f05ce57d909ba4890"
+          }
+        },
+        {
+          "client_id": "36908954749-rl29d0ol2o89cqd7qebn7qf1bkm3hk68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9HbBl58OAsUfL9seVH0IHhJxSJ6QJY-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36908954749-rl29d0ol2o89cqd7qebn7qf1bkm3hk68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

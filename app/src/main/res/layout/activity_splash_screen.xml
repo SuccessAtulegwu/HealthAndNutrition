@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/hnn"
+    tools:context=".SplashScreen">
+
+
+  <ImageView
+      android:id="@+id/imgSplash"
+      android:layout_width="120dp"
+      android:layout_height="120dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="64dp"
+      android:layout_marginEnd="10dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginBottom="64dp"
+      android:src="@drawable/logoo"
+      app:layout_constraintBottom_toTopOf="@+id/txtSplash"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.612" />
+
+  <TextView
+      android:id="@+id/txtSplash"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="620dp"
+      android:layout_marginBottom="50dp"
+      android:fontFamily="sans-serif"
+      android:gravity="center"
+      android:text="powered by HN Nutrition"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textSize="14sp"
+      android:textStyle="italic"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

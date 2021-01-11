@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#FFEB3B</color>
+    <color name="lightPrimaryColor">#C8E6C9</color>
+    <color name="primaryText">#212121</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey_dialog_box">#9C27B0</color>
+    <color name="white">#FAF9F9</color>
+    <color name="black">#0B0B0B</color>
+    <color name="halo">#4CAF50</color>
+    <color name="fux">#F11E0E</color>
+</resources>

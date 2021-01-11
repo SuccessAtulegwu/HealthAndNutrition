@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="30dp"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgWater"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:foreground="@drawable/bg_tips"
+                android:scaleType="centerCrop"
+                android:src="@drawable/health"/>
+
+
+            <ImageView
+                android:id="@+id/share"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:onClick="share"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/shar" />
+
+            <TextView
+                android:id="@+id/txtPager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/drink_a_glass_of_water_first_thing_in_the_morning"
+                android:layout_below="@id/imgWater"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:textAllCaps="true"
+               android:gravity="center"
+                android:fontFamily="sans-serif-black"/>
+
+            <TextView
+                android:id="@+id/txtDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/coffee_s_great_too_but_it_s_best_to_start_your_day_by_re_hydrating_with_a_full_glass_of_water_hydrating_first_thing_in_the_morning_helps_to_aid_digestion_enhance_skin_health_and_boost_energy"
+               android:padding="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_below="@id/txtPager"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:paddingBottom="10dp"
+                android:fontFamily="serif"/>
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

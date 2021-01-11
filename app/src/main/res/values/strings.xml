@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Health And Nutrition</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rate_dialog_message">If you enjoy using Health And Nutrition, please take a moment to rate it. Thanks for your support!</string>
+    <string name="rate_dialog_ok">Rate It Now</string>
+    <string name="rate_dialog_cancel">Remind Me Later</string>
+    <string name="rate_dialog_no">No, Thanks</string>
+    <string name="coffee_s_great_too_but_it_s_best_to_start_your_day_by_re_hydrating_with_a_full_glass_of_water_hydrating_first_thing_in_the_morning_helps_to_aid_digestion_enhance_skin_health_and_boost_energy">Coffee’s great too, but it’s best to start your day by re-hydrating with a full glass of water. Hydrating first thing in the morning helps to aid digestion, enhance skin health and boost energy.</string>
+    <string name="drink_a_glass_of_water_first_thing_in_the_morning">DRINK A GLASS OF WATER FIRST THING IN THE MORNING</string>
+    <string name="first_title">Get all the healthy foods that you need</string>
+    <string name="second_title">Get the exact nutrition
+value of everything you eat</string>
+    <string name="third_title">Get daily calorie targets
+based on your body weight</string>
+
+    <string name="first_desc">weather your losing or gaining
+weight,we all have the foods we need</string>
+    <string name="second_desc">we are updating our food database every
+minute to help you track your calories</string>
+    <string name="third_desc">set your target weight and select your
+monthly schedule, and we’ll do the rest</string>
+
+</resources>

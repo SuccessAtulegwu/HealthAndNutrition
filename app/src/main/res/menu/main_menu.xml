@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+
+        <item
+            android:id="@+id/tips"
+            android:title="Health Tips"
+            android:icon="@drawable/tips"/>
+        <item
+            android:id="@+id/cal"
+            android:title="Fitness &amp; Health Calculator"
+            android:icon="@drawable/calories"/>
+
+        <item
+            android:id="@+id/about"
+            android:title="About"
+            android:icon="@drawable/ic_about"/>
+        <item
+            android:id="@+id/rate"
+            android:title="Rate Us"
+            android:icon="@drawable/ic_rate"/>
+        <item
+            android:id="@+id/feed"
+            android:title="Feedback"
+            android:icon="@drawable/ic_feed"/>
+        <item
+            android:id="@+id/more"
+            android:title="More Apps"
+            android:icon="@drawable/ic_more"/>
+        <item
+            android:id="@+id/share"
+            android:title="Share App"
+            android:icon="@drawable/ic_share"/>
+    </group>
+
+
+
+</menu>
